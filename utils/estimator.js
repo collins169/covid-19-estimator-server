@@ -60,12 +60,12 @@ const estimateImpact = (data) => {
     impact.infectionsByRequestedTime,
     0.02
   ));
-  impact.dollarsInFlight = parseFloat(getDollarsInFlight(
+  impact.dollarsInFlight = getDollarsInFlight(
     impact.infectionsByRequestedTime,
     region.avgDailyIncomeInUSD,
     region.avgDailyIncomePopulation,
     getNumberOfDays(periodType, timeToElapse)
-  ).toFixed(2));
+  ).toFixed(2);
 
   return impact;
 };
@@ -103,12 +103,12 @@ const estimateSevereImpact = (data) => {
     severeImpact.infectionsByRequestedTime,
     0.02
   ));
-  severeImpact.dollarsInFlight = parseFloat(getDollarsInFlight(
+  severeImpact.dollarsInFlight = getDollarsInFlight(
     severeImpact.infectionsByRequestedTime,
     region.avgDailyIncomeInUSD,
     region.avgDailyIncomePopulation,
     getNumberOfDays(periodType, timeToElapse)
-  ).toFixed(2));
+  ).toFixed(2);
   return severeImpact;
 };
 
