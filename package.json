@@ -1,0 +1,32 @@
+{
+  "name": "covid-19-estimator-server",
+  "version": "1.0.0",
+  "description": "api server for covid-19 estimator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collins169/covid-19-estimator-server.git"
+  },
+  "keywords": [
+    "covid-19",
+    "estimator",
+    "covid-19-estimator"
+  ],
+  "author": "Collins Onyetube",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/collins169/covid-19-estimator-server/issues"
+  },
+  "homepage": "https://github.com/collins169/covid-19-estimator-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "body-parser-xml": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "xmlbuilder": "^15.1.1"
+  }
+}
