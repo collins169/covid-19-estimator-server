@@ -24,7 +24,7 @@
   "homepage": "https://github.com/collins169/covid-19-estimator-server#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "body-parser-xml": "^2.0.0",
+    "body-parser-xml": "^2.0.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "xmlbuilder": "^15.1.1"
